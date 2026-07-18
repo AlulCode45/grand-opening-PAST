@@ -1,0 +1,166 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-gold: var(--gold);
+  --color-gold-glow: var(--gold-glow);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --radius: 1.25rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0.02 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0.02 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0.02 260);
+  --primary: oklch(0.82 0.16 85);
+  --primary-foreground: oklch(0.12 0.02 260);
+  --secondary: oklch(0.96 0.005 260);
+  --secondary-foreground: oklch(0.18 0.02 260);
+  --muted: oklch(0.97 0.005 260);
+  --muted-foreground: oklch(0.5 0.02 260);
+  --accent: oklch(0.85 0.16 85);
+  --accent-foreground: oklch(0.12 0.02 260);
+  --destructive: oklch(0.58 0.24 27);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.92 0.008 260);
+  --input: oklch(0.92 0.008 260);
+  --ring: oklch(0.82 0.16 85);
+
+  /* Brand tokens */
+  --gold: oklch(0.82 0.16 85);           /* #F4B400 approx */
+  --gold-glow: oklch(0.85 0.17 82);      /* #FDBA2D approx */
+  --ink: oklch(0.15 0.03 260);           /* #0B0F19 */
+  --ink-2: oklch(0.22 0.03 260);         /* #111827 */
+}
+
+.dark {
+  --background: var(--ink);
+  --foreground: oklch(0.98 0 0);
+  --card: var(--ink-2);
+  --card-foreground: oklch(0.98 0 0);
+  --popover: var(--ink-2);
+  --popover-foreground: oklch(0.98 0 0);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@utility bg-hero-gradient {
+  background:
+    radial-gradient(80% 60% at 50% 0%, color-mix(in oklab, var(--gold) 22%, transparent), transparent 60%),
+    radial-gradient(60% 50% at 80% 90%, color-mix(in oklab, var(--gold) 14%, transparent), transparent 60%),
+    linear-gradient(180deg, #000000 0%, #1a0e05 45%, #0B0F19 100%);
+}
+
+@utility bg-ink {
+  background-color: var(--ink);
+}
+
+@utility bg-ink-2 {
+  background-color: var(--ink-2);
+}
+
+@utility text-gold {
+  color: var(--gold);
+}
+
+@utility bg-gold {
+  background-color: var(--gold);
+}
+
+@utility border-gold {
+  border-color: var(--gold);
+}
+
+@utility ring-gold {
+  --tw-ring-color: var(--gold);
+}
+
+@utility shadow-gold {
+  box-shadow: 0 20px 60px -20px color-mix(in oklab, var(--gold) 55%, transparent);
+}
+
+@utility shadow-soft {
+  box-shadow: 0 10px 40px -10px rgb(0 0 0 / 0.15);
+}
+
+@utility glass {
+  background: color-mix(in oklab, white 8%, transparent);
+  backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid color-mix(in oklab, white 14%, transparent);
+}
+
+@utility glass-dark {
+  background: color-mix(in oklab, black 40%, transparent);
+  backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid color-mix(in oklab, white 10%, transparent);
+}
+
+@utility gold-gradient-text {
+  background: linear-gradient(90deg, #FDBA2D 0%, #F4B400 50%, #FFE082 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility btn-gold {
+  background: linear-gradient(135deg, #FDBA2D, #F4B400);
+  color: #0B0F19;
+  box-shadow: 0 10px 30px -10px color-mix(in oklab, #F4B400 60%, transparent);
+  transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
+}
+@utility btn-gold-hover {
+  &:hover { transform: translateY(-2px); filter: brightness(1.05); box-shadow: 0 18px 40px -12px color-mix(in oklab, #F4B400 70%, transparent); }
+}
+
+@keyframes float-y {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+@utility animate-float {
+  animation: float-y 6s ease-in-out infinite;
+}
