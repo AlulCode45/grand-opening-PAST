@@ -8,13 +8,13 @@ import {
   Star, MessageCircle, ArrowUp, Sparkles, Play, Send, Calendar, User2,
 } from "lucide-react";
 import {
-  services, gallery, locations, testimonials, partners, faq, whyUs, nav,
+  services, gallery, locations, nav,
 } from "@/data/site";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PT Pusat Andalan Sukses Terpadu" },
+      { title: "Grand Opening PAST" },
       { name: "description", content: "Grand Opening in Bandung. Premium tax attorney, corporate tax, litigation, audit and management consulting across 9 offices in Indonesia." },
       { property: "og:title", content: "PT Pusat Andalan Sukses Terpadu" },
       { property: "og:description", content: "Trusted partner for tax attorney, corporate tax, litigation, audit and management consulting." },
@@ -365,41 +365,16 @@ function Services() {
                     <p className="mt-6 text-sm text-white/65 leading-relaxed">
                       {s.desc}
                     </p>
-<a
-  href={`https://wa.me/6283113066518?text=${encodeURIComponent(
-`Halo Admin PT Pusat Andalan Sukses Terpadu
-
-Saya ingin berkonsultasi mengenai layanan:
-
- Layanan : ${s.title}
-
-━━━━━━━━━━━━━━━━━━
-
-Nama :
-Perusahaan :
-Kebutuhan Konsultasi :
-
-━━━━━━━━━━━━━━━━━━
-
-Terima kasih.`
-  )}`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-6 inline-flex items-center gap-2 rounded-full bg-gold px-5 py-2.5 text-sm font-bold text-ink hover:scale-105 transition-all"
->
-  Konsultasi Sekarang
-  <ArrowRight size={16} />
-</a>
+                    </div>
                   </div>
-                </div>
-              </Reveal>
-            );
-          })}
+                </Reveal>
+              );
+            })}
+          </div>
         </div>
-      </div>
-    </section>
-  );
-}
+      </section>
+    );
+  }
 
 function Seminars() {
   const [active, setActive] = useState<null | typeof gallery[number]>(null);

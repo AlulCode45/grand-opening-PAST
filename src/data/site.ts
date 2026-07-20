@@ -16,6 +16,8 @@ export const services = [
   { image: "/Galeri/Service4.png", title: "Grand Tax Attorney", subtitle: "Pengacara Pajak", desc: "Professional tax legal representation and consultation services for businesses and individuals." },
   { image: "/Galeri/Service5.png", title: "Psikolog", subtitle: "Hipnoterapi Trauma Pajak", desc: "Specialized therapy services for tax-related stress and trauma recovery." },
   { image: "/Galeri/TraumaCenter.png", title: "Indonesia Tax Trauma Center", subtitle: "Bantuan Audit", desc: "Preparation and representation for internal, external, and tax office audits." },
+    { image: "/Galeri/Service5.png", title: "Mindfulme", subtitle: "Platform Kesehatan Mental & Bantuan Hukum", desc: "Providing professional mental health support and legal assistance in a safe, confidential, and supportive environment." },
+  { image: "/Galeri/ASLF.png", title: "Kurator", subtitle: "Kurator & Pengurus Kepailitan", desc: "Professional insolvency administration, business restructuring, and asset management services for sustainable recovery." },
 ];
 
 export const gallery = [
@@ -43,11 +45,6 @@ export const locations = [
   { city: "Denpasar", address: "Orange Asia Office, Jl. Pura Demak Lange 3, Pemecutan Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80119" },
 ];
 
-export const testimonials = [
-  { name: "Andreas Wijaya", position: "CFO", company: "PT Nusantara Prima", quote: "Grand Tax Attorney turned a two-year tax dispute into a full restitution win. Their litigation team is genuinely world-class.", img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" },
-  { name: "Melisa Hartono", position: "Managing Director", company: "Harta Sentosa Group", quote: "Beyond compliance, they redesigned our entire finance operating model. We now close books 60% faster with zero audit findings.", img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" },
-  { name: "Rendy Kurniawan", position: "Founder & CEO", company: "Kurnia Ventures", quote: "The most trusted advisor we've engaged. Discreet, precise, and consistently one step ahead of the tax office.", img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" },
-];
 
 export const partners = [
   "IWPI", "Indonesia Tax Trauma Center", "P3I", "Bank Mandiri", "BCA Corporate", "Astra Group", "Sinar Mas", "Kompas Gramedia",
