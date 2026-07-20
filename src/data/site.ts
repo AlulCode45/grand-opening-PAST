@@ -10,7 +10,6 @@ export const nav = [
 ];
 
 export const services = [
-  { image: "/Galeri/SakaArtha.png", title: "Saka Artha", subtitle: "Konsultan Hukum & Pemulihan Bisnis", desc: "Protecting businesses through legal advisory, tax dispute resolution, forensic audits, financial restructuring, and compliance strategies." },
   { image: "/Galeri/Service2.png", title: "Hypno Lawyer", subtitle: "Hipnoterapis Pajak", desc: "Providing psychological counseling and hypnotherapy to help individuals recover from stress, trauma, and emotional challenges." },
   { image: "/Galeri/ASLF.png", title: "Alpha Sonic Law Firm", subtitle: "Pengacara Hukum", desc: "Providing comprehensive legal solutions for businesses, including corporate law, contracts, compliance, and dispute resolution." },
   { image: "/Galeri/Service4.png", title: "Grand Tax Attorney", subtitle: "Pengacara Pajak", desc: "Professional tax legal representation and consultation services for businesses and individuals." },

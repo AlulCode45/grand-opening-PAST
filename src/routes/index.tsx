@@ -566,18 +566,7 @@ function AboutUs() {
               Didukung Oleh :
             </h4>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 text-center items-center">
-
-              <div>
-                <img
-                  src="/Galeri/SakaArtha.png"
-                  className="h-24 mx-auto object-contain"
-                />
-
-                <p className="mt-4 text-sm">
-                  Saka Artha
-                </p>
-              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-8 text-center items-center">
 
               <div>
                 <img
@@ -630,6 +619,26 @@ function AboutUs() {
 
                 <p className="mt-4 text-sm">
                   Indonesia Tax Trauma Center
+                </p>
+              </div>
+              <div>
+                <img
+                  src="/Galeri/ASLF.png"
+                  className="h-24 mx-auto object-contain"
+                />
+
+                <p className="mt-4 text-sm">
+                  Kurator
+                </p>
+              </div>
+              <div>
+                <img
+                  src="/Galeri/TraumaCenter.png"
+                  className="h-24 mx-auto object-contain"
+                />
+
+                <p className="mt-4 text-sm">
+                  Mindfulme
                 </p>
               </div>
 
