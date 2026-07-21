@@ -563,7 +563,7 @@ function AboutUs() {
             {/* Partner */}
 
             <h4 className="text-2xl font-bold mb-8">
-              Didukung Oleh :
+              Unit Layanan Kami :
             </h4>
 
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-8 text-center items-center">
@@ -633,7 +633,7 @@ function AboutUs() {
               </div>
               <div>
                 <img
-                  src="/Galeri/TraumaCenter.png"
+                  src="/Galeri/Mindfulme.png"
                   className="h-24 mx-auto object-contain"
                 />
 
