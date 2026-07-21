@@ -254,7 +254,7 @@ function Hero() {
               </p>
               <div className="mt-6 grid gap-4 text-white/80 text-sm">
                 <div className="flex items-start gap-2"><Phone size={16} className="text-gold mt-0.5 shrink-0" /><span>0811619780</span></div>
-                <div className="flex items-start gap-2"><Clock size={16} className="text-gold mt-0.5 shrink-0" /><span>Jumat 7 Agustus | 14:00–17:00</span></div>
+                <div className="flex items-start gap-2"><Clock size={16} className="text-gold mt-0.5 shrink-0" /><span>Jumat 7 Agustus | 14:30–17:00</span></div>
               </div>
               <div className="mt-6 flex flex-wrap gap-2">
                 {["Tax Attorney", "Tax Consultant", "Management Consultant", "Business Recovery"].map((t) => (
@@ -277,7 +277,7 @@ function Hero() {
               </div>
               <div className="text-center sm:text-left">
                 <div className="text-gold text-xs font-semibold tracking-[0.2em]">Founder & CEO</div>
-                <h3 className="mt-2 text-white text-2xl font-bold">Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht</h3>
+                <h3 className="mt-2 text-white text-2xl font-bold">Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®</h3>
                 <p className="mt-3 text-gold/70 text-sm leading-relaxed">
                 Tax Attorney, Tax Consultant, Management Consultant, Corporate Tax Advisor
                 </p>

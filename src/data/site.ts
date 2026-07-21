@@ -20,18 +20,18 @@ export const services = [
 ];
 
 export const gallery = [
-  { title: "Core Tax Payment Via PeB  2026", location: "Online (Zoom, Teams", date: "04 Feb 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Semiinar20264.jpeg" },
-  { title: "Maksimalkan Potensi Usaha di Era Coretax", location: "Gaharu Room Grand City Hall", date: "19 Nov 2024", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Seminar2024.jpeg" },
-  { title: "Setelah CORETAX, Bagaimana Kelola Perpajakan Bisnis?", location: "Hotel Grand Elite Komp.RBC -Jl.Riau-Pekanbaru", date: "02 Mar 2025", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Seminar2025.jpeg" },
-  { title: "Cerdas Hadapi Aturan Pajak 2026", location: "Prioritas Lounge, SMBC Indonesia Medan", date: "13 Mar 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Seminar2026.jpeg" },
-  { title: "Peluang dan Tantangan Dunia Usaha di Era Coretax", location: "Bali", date: "20 Des 2024", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Seminar20242.jpeg" },
-  { title: "Menata Bisnis Dengan Pengelolaan Pajak yang Tepat", location: "Harris Hotel and Covertations Denpasar", date: "19 Ags 2025", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Seminar20252.jpeg" },
-  { title: "Business & Tax Planning", location: "AdiMulia Hotel, ruang Barcelona Lt.5.", date: "04 Sept 2025", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Seminar20253.jpeg" },
-  { title: "Antisipasi Resiko Bisnis Dengan Tata Kelola Perpajakan yang Baik", location: "Cafe Omah Sae, Jl Musi 39 Surabaya", date: "29 Apr 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Seminar20262.jpeg" },
-  { title: "Pajak Tertata Bisnis Terjaga: Antisipasi Resiko Bisnis Dengan Tata Kelola Perpajakan yang Baik ", location: "D'Botanica Mall RUang L-Lantai 1", date: "13 Mei 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Seminar20263.jpeg" },
-  { title: "Sidang Perkara Nomor 211/PUU-XXIII/2025", location: "Youtube Mahkamah Konstitunsi RI", date: "29 Jan 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Sidang2026.jpeg" },
-  { title: "Talkshow Ketatanegaraan Bermasalah, Gen Z Harus Bayar Mahal", location: "Universitas Pembinaan Masyarakat Indonesia (UPMI) Medan", date: "26 Agt 2025", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/Talkshow.jpeg" },
-  { title: "Tips & Trick Menghadapi Pemeriksaan Pajak ", location: "Vanilla Hotel Lantai 4", date: "26 Nov 2024", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht.", img: "/Galeri/Seminar/SeminarPajak.jpeg" },
+  { title: "Core Tax Payment Via PeB  2026", location: "Online (Zoom, Teams", date: "04 Feb 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Semiinar20264.jpeg" },
+  { title: "Maksimalkan Potensi Usaha di Era Coretax", location: "Gaharu Room Grand City Hall", date: "19 Nov 2024", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Seminar2024.jpeg" },
+  { title: "Setelah CORETAX, Bagaimana Kelola Perpajakan Bisnis?", location: "Hotel Grand Elite Komp.RBC -Jl.Riau-Pekanbaru", date: "02 Mar 2025", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Seminar2025.jpeg" },
+  { title: "Cerdas Hadapi Aturan Pajak 2026", location: "Prioritas Lounge, SMBC Indonesia Medan", date: "13 Mar 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Seminar2026.jpeg" },
+  { title: "Peluang dan Tantangan Dunia Usaha di Era Coretax", location: "Bali", date: "20 Des 2024", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Seminar20242.jpeg" },
+  { title: "Menata Bisnis Dengan Pengelolaan Pajak yang Tepat", location: "Harris Hotel and Covertations Denpasar", date: "19 Ags 2025", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Seminar20252.jpeg" },
+  { title: "Business & Tax Planning", location: "AdiMulia Hotel, ruang Barcelona Lt.5.", date: "04 Sept 2025", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Seminar20253.jpeg" },
+  { title: "Antisipasi Resiko Bisnis Dengan Tata Kelola Perpajakan yang Baik", location: "Cafe Omah Sae, Jl Musi 39 Surabaya", date: "29 Apr 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Seminar20262.jpeg" },
+  { title: "Pajak Tertata Bisnis Terjaga: Antisipasi Resiko Bisnis Dengan Tata Kelola Perpajakan yang Baik ", location: "D'Botanica Mall RUang L-Lantai 1", date: "13 Mei 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Seminar20263.jpeg" },
+  { title: "Sidang Perkara Nomor 211/PUU-XXIII/2025", location: "Youtube Mahkamah Konstitunsi RI", date: "29 Jan 2026", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Sidang2026.jpeg" },
+  { title: "Talkshow Ketatanegaraan Bermasalah, Gen Z Harus Bayar Mahal", location: "Universitas Pembinaan Masyarakat Indonesia (UPMI) Medan", date: "26 Agt 2025", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/Talkshow.jpeg" },
+  { title: "Tips & Trick Menghadapi Pemeriksaan Pajak ", location: "Vanilla Hotel Lantai 4", date: "26 Nov 2024", speaker: "Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®", img: "/Galeri/Seminar/SeminarPajak.jpeg" },
 ];
 
 export const locations = [
