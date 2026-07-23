@@ -174,51 +174,21 @@ function Hero() {
         <div className="text-center max-w-4xl mx-auto">
           <Reveal>
             {/* Logo */}
-          <div
-          className="
-            w-17 h-17
-            rounded-full
-            bg-[#F5B300]
-            flex
-            items-center
-            justify-center
-            mx-auto
-            shadow-[0_0_40px_rgba(245,179,0,.45)]
-          "
-        >
-
-            <div
-              className="
-                w-12 h-12
-                bg-white
-                rounded-full
-                flex
-                items-center
-                justify-center
-              "
-            >
-
-                <img
-                  src="/Galeri/Logo.png"
-                  alt="Logo"
-                  className="w-10 h-10 object-contain"
-                />
-
-            </div>
-
+          <div className=" w-17 h-17 rounded-full bg-[#F5B300] flex items-center justify-center mx-auto shadow-[0_0_40px_rgba(245,179,0,.45)]">
+          <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+          <img src="/Galeri/Logo.png" alt="Logo" className="w-10 h-10 object-contain"/>
         </div>
-         {/* Nama Perusahaan */}
+      </div>
+            {/* Nama Perusahaan */}
           <p className="text-gold font-bold uppercase tracking-wide text-lg mt-4 md:text-xl mb-5">
             PT. PUSAT ANDALAN SUKSES TERPADU
           </p>
-
-          {/* Badge */}
+            {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-3 rounded-full bg-gold text-black font-semibold mb-2">
             🎉
             <span>NOW OFFICIALLY OPEN</span>
           </div>
-
-          </Reveal>
+            </Reveal>
 <Reveal delay={0.1}>
   <div className="mt-3">
 
@@ -234,7 +204,7 @@ function Hero() {
 </Reveal>
           <Reveal delay={0.2}>
             <p className="mt-4 text-white/35 text-base md:text-lg leading-relaxed max-w-1xl mx-auto">
-            Celebrating the launch of our new office in Bandung. Your trusted partner for Tax Attorney, Corporate Tax, Tax Consultation, Business Consulting, Tax Trauma Recovery, and Audit Assistance — delivering integrated legal, financial, and business solutions.
+            Celebrating the launch of our new office in Bandung — your trusted partner for integrated Legal, Tax, Curatorship, Forensic, Business, Psychology, Mental Health, and Professional Consulting services.
             </p>
           </Reveal>
         </div>
@@ -257,7 +227,7 @@ function Hero() {
                 <div className="flex items-start gap-2"><Clock size={16} className="text-gold mt-0.5 shrink-0" /><span>Jumat 7 Agustus | 14:30–17:00</span></div>
               </div>
               <div className="mt-6 flex flex-wrap gap-2">
-                {["Tax Attorney", "Tax Consultant", "Management Consultant", "Business Recovery"].map((t) => (
+                {["Tax & Customs Law", "Legal Services", "Tax Consulting", "Forensic Audit", "State Registered Accountant",  "Business Consulting", "Curatorship & PKPU","Hypnotherapy", "Psychology & Mental Health" ].map((t) => (
                   <span key={t} className="text-xs font-medium text-gold border border-gold/40 rounded-full px-3 py-1">{t}</span>
                 ))}
               </div>
@@ -277,9 +247,11 @@ function Hero() {
               </div>
               <div className="text-center sm:text-left">
                 <div className="text-gold text-xs font-semibold tracking-[0.2em]">Founder & CEO</div>
-                <h3 className="mt-2 text-white text-2xl font-bold">Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®</h3>
-                <p className="mt-3 text-gold/70 text-sm leading-relaxed">
-                Tax Attorney, Tax Consultant, Management Consultant, Corporate Tax Advisor
+                <h3 className="mt-2 text-white text-2xl font-bold">Adv. Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®</h3>
+                <p className="mt-5 text-gold/80 text-sm leading-7">
+                  Business Consulting <br />
+                  Legal & Financial Consulting <br/>
+                  Tax Consulting • Curatorship • Mediation (MA)
                 </p>
               </div>
             </div>
@@ -511,25 +483,49 @@ function AboutUs() {
               </h3>
 
               <p className="text-xl text-gold font-semibold">
-                Pengacara Pajak
+                Layanan Profesional Terpadu
               </p>
 
             </div>
 
             {/* Description */}
 
-            <div className="mt-10 text-center space-y-2">
+              <div className="mt-10 text-center space-y-2">
 
               <h4 className="text-2xl font-bold">
-                KANTOR PENGACARA PAJAK
+                Alpha Sonic Law Firm - Advokat Hukum, Pajak & Bea Cukai
               </h4>
 
               <h4 className="text-2xl font-bold">
-                KONSULTAN PAJAK
+                Kurator Kepailitan & Pengurus PKPU
               </h4>
 
               <h4 className="text-2xl font-bold">
-                AHLI AUDIT FORENSIK
+                Auditor Forensik Berlisensi
+              </h4>
+
+              <h4 className="text-2xl font-bold">
+                Akuntan Registrasi Negara ( CA )
+              </h4>
+
+              <h4 className="text-2xl font-bold">
+                Konsultan Manajemen & Pajak
+              </h4>
+
+              <h4 className="text-2xl font-bold">
+                Hipnoterapi Berlisensi
+              </h4>
+
+              <h4 className="text-2xl font-bold">
+                Indonesia Tax Trauma Center
+              </h4>
+
+              <h4 className="text-2xl font-bold">
+                Mindfulme - Platform Online PPA
+              </h4>
+
+              <h4 className="text-2xl font-bold">
+                Talent Psychology Insight
               </h4>
 
             </div>
@@ -539,7 +535,7 @@ function AboutUs() {
             <div className="mt-8 text-center">
 
               <p className="text-gold font-semibold text-lg">
-                Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®
+                Adv. Jony, SE. SH. M.Si, CA, CPMA, CPHCM, CFrA, CMT, C.Ht®
               </p>
 
               <div className="mt-3 flex justify-center gap-8 text-muted-foreground flex-wrap">
